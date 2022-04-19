@@ -1,0 +1,75 @@
+@media(max-width: 700px){
+       
+    .display-1{
+        font-size: 3rem;
+    }
+    
+    .display-2{
+        font-size: 2rem;
+    
+    }
+    
+    .large{
+        font-size: 1.2rem;
+    }
+    
+   
+    .mainheader{
+        height: 100%;
+        text-align: center;
+        .mainheader-title{
+            float: none;
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .mainheader-image{
+            float: none;
+            width: 100%;
+            background-image: url("../IMG/7737-razer.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+        }
+    }
+    
+    .join{
+        padding: 100px 0;
+        h2{
+            text-align: center;
+            padding-top: 70px;
+        }
+        p{
+            text-align: center;
+            padding-bottom: 60px;
+        }
+        .join-form{
+            border: 1px solid $gray-color;
+            padding: 60px;
+            width: 50%;
+            margin: 0 auto;
+            h4{
+                padding-bottom: 40px;
+            }
+        }
+    
+    }
+
+    .join{
+        padding: 70px 0;
+        h2{
+            padding-top: 0;
+        }
+        p{
+              padding-bottom: 30px;
+        }
+        .join-form{
+            padding: 60px;
+            width: 100%;
+        }
+    
+    }
+  
+
+
+}

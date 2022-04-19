@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+$primary-color: #2D8BF5;
+$gray-color: #4D4D4D;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: $gray-color;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.display-1{
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.display-2{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.large{
+    font-size: 1.5rem;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-dark{
+    background: $primary-color;
+    border: none;
+    color: #fff;
+}
+
+form{
+    .form-group{
+        margin-bottom: 16px;
+    }
+    .form-control{
+        width: 100%;
+        padding: 7px 12px;
+        font-size: 1rem;
+        line-height: 1.5;
+        border: 1px solid $gray-color;
+        border-radius: 4px;
+    }
+}
+
+.mainheader{
+    height: 100vh;
+    .mainheader-title{
+        float: left;
+        width: 50%;
+        padding-top: 100px;
+        a{
+            margin-top: 50px;
+        }
+    }
+    .mainheader-image{
+        float: right;
+        width: 50%;
+        background-image: url("../IMG/7737-razer.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+    }
+}
+
+.join{
+    padding: 100px 0;
+    h2{
+        text-align: center;
+        padding-top: 70px;
+    }
+    p{
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    .join-form{
+        border: 1px solid $gray-color;
+        padding: 60px;
+        width: 50%;
+        margin: 0 auto;
+        h4{
+            padding-bottom: 40px;
+        }
+    }
+
+}
+
+.mainfooter{
+    text-align: center;
+    padding: 30px;
+}
+
+
+@import 'mobile'; // @import url('_mobile.scss');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
